@@ -1,0 +1,35 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{url}
+\usepackage{graphicx}
+
+
+\DeclareUnicodeCharacter{2032}{\ensuremath{'}}
+
+\usepackage[backend=bibtex,style=ieee]{biblatex}
+\addbibresource{Jn2_25.bib}
+\addbibresource{Jn2_45.bib}
+
+\begin{document}
+
+\title{Journal 2}
+\author{Samuel Olowofila
+repository: }
+\date{}
+\maketitle
+
+\input{sections/SearchSkim1}
+\input{sections/Browsing2}
+
+
+\nocite{*}
+\printbibliography[heading=none]
+
+
+\nocite{*}
+\printbibliography[heading=none]
+
+\end{document}
